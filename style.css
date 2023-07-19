@@ -3,3 +3,50 @@
   margin: 0;
   padding: 0;
 }
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/***************************/
+/* NAVIGATION */
+/**************************/
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.main-nav-link,
+.main-nav-link:visited {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+.img-card {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: hsl(0, 0%, 75%);
+}
+
+.secondary-main a {
+  /* color: hsl(170, 45%, 43%); */
+  text-decoration: none;
+}
+
+.footer-nav a {
+  text-decoration: none;
+  /* color: hsl(240, 75%, 98%); */
+}
